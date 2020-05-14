@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #326b86;
+    padding: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.outer{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background: #222222;
+    margin: 20px auto;
+}
+.red{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 0, 0,0.5);
+    left: 195px;
+    top: 195px;
+     border-radius: 50%;
+     cursor: -webkit-grabbing;
+
+}
+
+.green{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(0, 128, 0,0.5);
+    
+
+
+}
